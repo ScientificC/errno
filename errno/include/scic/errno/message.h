@@ -5,7 +5,7 @@
 #ifndef SCIC_ERRNO_MSG_H
 #define SCIC_ERRNO_MSG_H
 
-__SCIC_BEGIN_DECLS
+__SCIC_ERR_BEGIN_DECLS
 
 /* Provide a general messaging service for client use.  Messages can
  * be selectively turned off at compile time by defining an
@@ -49,6 +49,6 @@ enum {
         } while (0)
 #endif
 
-__SCIC_END_DECLS
+__SCIC_ERR_END_DECLS
 
 #endif

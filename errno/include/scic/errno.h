@@ -3,14 +3,11 @@
 
 #include <stdio.h>
 
-#define _SCIC_COMMON_H_
-#include <scic/_common/default.h>
-#include <scic/_common/inline.h>
-#undef _SCIC_COMMON_H_
-
+#include <scic/errno/default.h>
+#include <scic/errno/inline.h>
 #include <scic/errno/message.h>
 
-__SCIC_BEGIN_DECLS
+__SCIC_ERR_BEGIN_DECLS
 
 enum {
         SCIC_SUCCESS  = 0,
@@ -126,6 +123,6 @@ FILE *scic_set_stream(FILE *new_stream);
 
 #define SCIC_STATUS_UPDATE(sp, s) do { if((s) != SCIC_SUCCESS) *(sp) =(s); } while (0)
 
-__SCIC_END_DECLS
+__SCIC_ERR_END_DECLS
 
 #endif
