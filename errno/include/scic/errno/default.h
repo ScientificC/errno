@@ -1,4 +1,4 @@
-#ifndef _SCIC_COMMON_H_
+#ifndef SCIC_ERRNO_H
 #error "Never use <scic/errno/default.h> directly; include <scic/err.h> instead."
 #endif
 
