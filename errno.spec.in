@@ -49,11 +49,11 @@ ctest -V %{?_smp_mflags}
 
 %files
 %license %{_licensedir}/lib%{name}/LICENSE
-%{_libdir}/liberrno*.so.*
+%{_libdir}/libscicerrno*.so.*
 
 %files devel
 %{_includedir}/%{name}/
-%{_libdir}/liberrno.so
+%{_libdir}/libscicerrno.so
 
 %files doc
 %{_docdir}/lib%{name}/README.md
