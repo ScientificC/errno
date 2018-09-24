@@ -13,10 +13,11 @@ __SCIC_ERR_BEGIN_DECLS
  * macro must provide a mask which is or'ed with the SCIC_MESSAGE_MASK.
  *
  * The messaging service can be completely turned off
- * by defining SCIC_MESSAGING_OFF.  */
+ * by defining SCIC_MESSAGING_OFF.
+ */
 
-void scic_message(const char * message, const char * file, int line,
-                 unsigned int mask);
+void scic_message(const char *message, const char *file, int line,
+                  unsigned int mask);
 
 #ifndef SCIC_MESSAGE_MASK
         #define SCIC_MESSAGE_MASK 0xffffffffu /* default all messages allowed */
@@ -38,14 +39,15 @@ enum {
 };
 
 #ifdef SCIC_MESSAGING_OFF        /* throw away messages */
-        #define SCIC_MESSAGE(message, mask) do { } while(0)
+        #define SCIC_MESSAGE(message, mask) do { } while (0)
 #else                           /* output all messages */
-        #define SCIC_MESSAGE(message, mask) \
-        do { \
-                if (mask & SCIC_MESSAGE_MASK) \
-                { \
-                        scic_message(message, __FILE__, __LINE__, mask); \
-                } \
+        #define SCIC_MESSAGE(message, mask)                             \
+        do {                                                            \
+                typeof(mask) tmp = (mask);                              \
+                if (tmp & SCIC_MESSAGE_MASK)                            \
+                {                                                       \
+                        scic_message(message, __FILE__, __LINE__, tmp); \
+                }                                                       \
         } while (0)
 #endif
 

@@ -11,6 +11,6 @@ scic_message(const char *reason, const char *file, int line,
 {
         if (mask & scic_message_mask)
         {
-                scic_stream_printf ("MESSAGE", file, line, reason);
+                scic_stream_printf("MESSAGE", file, line, reason);
         }
 }

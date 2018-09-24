@@ -48,58 +48,58 @@ enum {
 };
 
 void scic_error(const char *reason, const char *file, int line,
-               int scic_errno);
+                int scic_errno);
 
 void scic_stream_printf(const char *label, const char *file,
-                       int line, const char *reason);
+                        int line, const char *reason);
 
 const char *scic_strerror(const int scic_errno);
 
 typedef void scic_error_handler_t (const char *reason, const char *file,
-                                  int line, int scic_errno);
+                                   int line, int scic_errno);
 
 typedef void scic_stream_handler_t (const char *label, const char *file,
-                                   int line, const char *reason);
+                                    int line, const char *reason);
 
 scic_error_handler_t *
-scic_set_error_handler(scic_error_handler_t * new_handler);
+scic_set_error_handler(scic_error_handler_t *new_handler);
 
 scic_error_handler_t *
 scic_set_error_handler_off(void);
 
 scic_stream_handler_t *
-scic_set_stream_handler(scic_stream_handler_t * new_handler);
+scic_set_stream_handler(scic_stream_handler_t *new_handler);
 
 FILE *scic_set_stream(FILE *new_stream);
 
 /* SCIC_ERROR: call the error handler, and return the error code */
-
-#define SCIC_ERROR(reason, scic_errno) \
-        do { \
-                scic_error(reason, __FILE__, __LINE__, scic_errno); \
-                return scic_errno; \
+#define SCIC_ERROR(reason, scic_errno)                                  \
+        do {                                                            \
+                typeof(tmp) = scic_error;                               \
+                scic_error(reason, __FILE__, __LINE__, tmp);            \
+                return tmp;                                             \
         } while (0)
 
 /* SCIC_ERROR_VAL: call the error handler, and return the given value */
-
-#define SCIC_ERROR_VAL(reason, scic_errno, value) \
-        do { \
-                scic_error(reason, __FILE__, __LINE__, scic_errno); \
-                return value; \
+#define SCIC_ERROR_VAL(reason, scic_errno, value)                       \
+        do {                                                            \
+                scic_error(reason, __FILE__, __LINE__, scic_errno);     \
+                return value;                                           \
         } while (0)
 
 /* SCIC_ERROR_VOID: call the error handler, and then return
-   (for void functions which still need to generate an error) */
-
-#define SCIC_ERROR_VOID(reason, scic_errno) \
-        do { \
-                scic_error(reason, __FILE__, __LINE__, scic_errno); \
-                return; \
+ * (for void functions which still need to generate an error)
+ */
+#define SCIC_ERROR_VOID(reason, scic_errno)                             \
+        do {                                                            \
+                scic_error(reason, __FILE__, __LINE__, scic_errno);     \
+                return;                                                 \
         } while (0)
 
 /* SCIC_ERROR_NULL suitable for out-of-memory conditions */
 
-#define SCIC_ERROR_NULL(reason, scic_errno) SCIC_ERROR_VAL(reason, scic_errno, 0)
+#define SCIC_ERROR_NULL(reason, scic_errno) \
+                SCIC_ERROR_VAL(reason, scic_errno, 0)
 
 /* Sometimes you have several status results returned from
  * function calls and you want to combine them in some sensible
@@ -116,12 +116,33 @@ FILE *scic_set_stream(FILE *new_stream);
  * Here are some dumb macros to do this.
  */
 
-#define SCIC_ERROR_SELECT_2(a,b) ((a) != SCIC_SUCCESS ? (a) : ((b) != SCIC_SUCCESS ? (b) : SCIC_SUCCESS))
-#define SCIC_ERROR_SELECT_3(a,b,c) ((a) != SCIC_SUCCESS ? (a) : SCIC_ERROR_SELECT_2(b,c))
-#define SCIC_ERROR_SELECT_4(a,b,c,d) ((a) != SCIC_SUCCESS ? (a) : SCIC_ERROR_SELECT_3(b,c,d))
-#define SCIC_ERROR_SELECT_5(a,b,c,d,e) ((a) != SCIC_SUCCESS ? (a) : SCIC_ERROR_SELECT_4(b,c,d,e))
+#define SCIC_ERROR_SELECT_2(a, b)                               \
+        (typeof(a) tmp = (a), tmp != SCIC_SUCCESS ?             \
+                tmp :                                           \
+                (typeof(b) _tmp = (b), _tmp != SCIC_SUCCESS ?   \
+                        (_tmp) :                                \
+                        SCIC_SUCCESS))
 
-#define SCIC_STATUS_UPDATE(sp, s) do { if((s) != SCIC_SUCCESS) *(sp) =(s); } while (0)
+#define SCIC_ERROR_SELECT_3(a, b, c)                            \
+        (typeof(a) tmp = (a), tmp != SCIC_SUCCESS ?             \
+                tmp :                                           \
+                SCIC_ERROR_SELECT_2(b, c))
+
+#define SCIC_ERROR_SELECT_4(a, b, c, d)                         \
+        (typeof(a) tmp = (a), tmp != SCIC_SUCCESS ?             \
+                tmp :                                           \
+                SCIC_ERROR_SELECT_3(b, c, d))
+
+#define SCIC_ERROR_SELECT_5(a, b, c, d, e)                      \
+        (typeof(a) tmp = (a), tmp != SCIC_SUCCESS ?             \
+                tmp :                                           \
+                SCIC_ERROR_SELECT_4(b, c, d, e))
+
+#define SCIC_STATUS_UPDATE(sp, s) do {                          \
+        typeof(tmp) = (s);                                      \
+        if (tmp != SCIC_SUCCESS)                                \
+                *(sp) = tmp;                                    \
+} while (0)
 
 __SCIC_ERR_END_DECLS
 

@@ -1,6 +1,5 @@
 #include <scic/errno.h>
 
-
 const char *
 scic_strerror(const int scic_errno)
 {
