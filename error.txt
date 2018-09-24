@@ -6,7 +6,7 @@
 ./errno/include/scic/errno.h:43: WARNING:LONG_LINE_COMMENT: line over 80 characters
 ./errno/include/scic/errno.h:46: WARNING:LONG_LINE_COMMENT: line over 80 characters
 ./errno/src/errno/error.c:8: WARNING:LONG_LINE: line over 80 characters
-./errno/src/errno/strerrno.c:39: WARNING:LONG_LINE: line over 80 characters
-./errno/src/errno/strerrno.c:55: WARNING:LONG_LINE: line over 80 characters
-./errno/src/errno/strerrno.c:59: WARNING:LONG_LINE: line over 80 characters
+./errno/src/errno/strerrno.c:38: WARNING:LONG_LINE: line over 80 characters
+./errno/src/errno/strerrno.c:54: WARNING:LONG_LINE: line over 80 characters
+./errno/src/errno/strerrno.c:58: WARNING:LONG_LINE: line over 80 characters
 ~/Documents/Projects/Github/errno/bin

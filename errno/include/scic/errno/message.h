@@ -44,8 +44,7 @@ enum {
         #define SCIC_MESSAGE(message, mask)                             \
         do {                                                            \
                 typeof(mask) tmp = (mask);                              \
-                if (tmp & SCIC_MESSAGE_MASK)                            \
-                {                                                       \
+                if (tmp & SCIC_MESSAGE_MASK) {                          \
                         scic_message(message, __FILE__, __LINE__, tmp); \
                 }                                                       \
         } while (0)

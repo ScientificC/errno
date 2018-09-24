@@ -3,8 +3,7 @@
 const char *
 scic_strerror(const int scic_errno)
 {
-        switch (scic_errno)
-        {
+        switch (scic_errno) {
         case SCIC_SUCCESS:
                 return "success";
         case SCIC_FAILURE:

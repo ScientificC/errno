@@ -8,12 +8,9 @@ scic_stream_printf(const char *label, const char *file, int line,
                    const char *reason)
 {
         if (!scic_stream)
-        {
                 scic_stream = stderr;
-        }
 
-        if (scic_stream_handler)
-        {
+        if (scic_stream_handler) {
                 (*scic_stream_handler)(label, file, line, reason);
                 return;
         }

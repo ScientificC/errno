@@ -4,6 +4,6 @@ pushd `pwd`
 
 cd ..
 
-find . -type f | grep -v -e ".txt" -e ".git" -e "build/" -e "install/" -e "test/" | xargs ./bin/checkpatch -f --no-tree --no-summary --terse --show-types --subjective --ignore SPDX_LICENSE_TAG,COMPLEX_MACRO,LEADING_SPACE,CODE_INDENT,OPEN_BRACE,ELSE_AFTER_BRACE,MACRO_WITH_FLOW_CONTROL
+find . -type f | grep -v -e ".txt" -e ".git" -e "build/" -e "install/" -e "test/" | xargs ./bin/checkpatch -f --no-tree --no-summary --terse --show-types --subjective --ignore SPDX_LICENSE_TAG,COMPLEX_MACRO,LEADING_SPACE,CODE_INDENT,MACRO_WITH_FLOW_CONTROL
 
 popd

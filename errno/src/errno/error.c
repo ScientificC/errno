@@ -10,8 +10,7 @@ static void no_error_handler(const char *reason, const char *file, int line, int
 void
 scic_error(const char *reason, const char *file, int line, int scic_errno)
 {
-        if (scic_error_handler)
-        {
+        if (scic_error_handler) {
                 (*scic_error_handler)(reason, file, line, scic_errno);
                 return;
         }
