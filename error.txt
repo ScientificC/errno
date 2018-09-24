@@ -1,0 +1,467 @@
+~/Documents/Projects/Github/errno/bin ~/Documents/Projects/Github/errno/bin
+./errno/include/scic/errno/inline.h:1: WARNING:SPDX_LICENSE_TAG: Missing or malformed SPDX-License-Identifier tag in line 1
+./errno/include/scic/errno/inline.h:9: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno/inline.h:11: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno/inline.h:11: ERROR:COMPLEX_MACRO: Macros with complex values should be enclosed in parentheses
+./errno/include/scic/errno/inline.h:16: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno/inline.h:16: ERROR:COMPLEX_MACRO: Macros with complex values should be enclosed in parentheses
+./errno/include/scic/errno/inline.h:18: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno/inline.h:20: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno/inline.h:21: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno/inline.h:25: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno/default.h:1: WARNING:SPDX_LICENSE_TAG: Missing or malformed SPDX-License-Identifier tag in line 1
+./errno/include/scic/errno/default.h:10: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno/default.h:11: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno/default.h:12: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno/default.h:13: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno/default.h:14: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno/default.h:15: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno/default.h:16: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno/default.h:17: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno/default.h:18: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno/default.h:25: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno/default.h:26: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno/default.h:28: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno/default.h:29: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno/default.h:29: ERROR:COMPLEX_MACRO: Macros with complex values should be enclosed in parentheses
+./errno/include/scic/errno/default.h:31: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno/default.h:32: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno/default.h:33: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno/default.h:34: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno/default.h:35: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno/default.h:36: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno/default.h:40: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno/default.h:41: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno/default.h:46: ERROR:MULTISTATEMENT_MACRO_USE_DO_WHILE: Macros starting with if should be enclosed by a do - while loop to avoid possible if/else logic defects
+./errno/include/scic/errno/default.h:46: CHECK:MACRO_ARG_PRECEDENCE: Macro argument 'x' may be better as '(x)' to avoid precedence issues
+./errno/include/scic/errno/default.h:46: WARNING:BRACES: braces {} are not necessary for single statement blocks
+./errno/include/scic/errno/message.h:1: WARNING:SPDX_LICENSE_TAG: Missing or malformed SPDX-License-Identifier tag in line 1
+./errno/include/scic/errno/message.h:16: WARNING:BLOCK_COMMENT_STYLE: Block comments use a trailing */ on a separate line
+./errno/include/scic/errno/message.h:18: ERROR:POINTER_LOCATION: "foo * bar" should be "foo *bar"
+./errno/include/scic/errno/message.h:18: ERROR:POINTER_LOCATION: "foo * bar" should be "foo *bar"
+./errno/include/scic/errno/message.h:19: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno/message.h:19: CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+./errno/include/scic/errno/message.h:19: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/include/scic/errno/message.h:22: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno/message.h:30: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno/message.h:30: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/include/scic/errno/message.h:31: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno/message.h:31: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/include/scic/errno/message.h:32: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno/message.h:32: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/include/scic/errno/message.h:33: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno/message.h:33: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/include/scic/errno/message.h:34: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno/message.h:34: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/include/scic/errno/message.h:35: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno/message.h:35: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/include/scic/errno/message.h:36: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno/message.h:36: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/include/scic/errno/message.h:37: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno/message.h:37: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/include/scic/errno/message.h:41: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno/message.h:43: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno/message.h:43: CHECK:MACRO_ARG_REUSE: Macro argument reuse 'mask' - possible side-effects?
+./errno/include/scic/errno/message.h:43: CHECK:MACRO_ARG_PRECEDENCE: Macro argument 'mask' may be better as '(mask)' to avoid precedence issues
+./errno/include/scic/errno/message.h:44: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno/message.h:44: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/include/scic/errno/message.h:45: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno/message.h:45: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/include/scic/errno/message.h:46: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno/message.h:46: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/include/scic/errno/message.h:47: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno/message.h:47: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/include/scic/errno/message.h:48: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno/message.h:48: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/include/scic/errno/message.h:49: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno/message.h:49: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/include/scic/errno.h:1: WARNING:SPDX_LICENSE_TAG: Missing or malformed SPDX-License-Identifier tag in line 1
+./errno/include/scic/errno.h:13: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno.h:13: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/include/scic/errno.h:14: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno.h:14: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/include/scic/errno.h:15: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno.h:15: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/include/scic/errno.h:16: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno.h:16: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/include/scic/errno.h:17: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno.h:17: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/include/scic/errno.h:18: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno.h:18: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/include/scic/errno.h:19: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno.h:19: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/include/scic/errno.h:20: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno.h:20: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/include/scic/errno.h:21: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno.h:21: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/include/scic/errno.h:22: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno.h:22: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/include/scic/errno.h:23: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno.h:23: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/include/scic/errno.h:24: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno.h:24: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/include/scic/errno.h:25: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno.h:25: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/include/scic/errno.h:26: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno.h:26: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/include/scic/errno.h:27: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno.h:27: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/include/scic/errno.h:28: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno.h:28: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/include/scic/errno.h:29: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno.h:29: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/include/scic/errno.h:30: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno.h:30: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/include/scic/errno.h:31: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno.h:31: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/include/scic/errno.h:32: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno.h:32: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/include/scic/errno.h:33: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno.h:33: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/include/scic/errno.h:34: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno.h:34: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/include/scic/errno.h:35: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno.h:35: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/include/scic/errno.h:36: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno.h:36: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/include/scic/errno.h:37: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno.h:37: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/include/scic/errno.h:38: WARNING:LONG_LINE_COMMENT: line over 80 characters
+./errno/include/scic/errno.h:38: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno.h:38: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/include/scic/errno.h:39: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno.h:39: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/include/scic/errno.h:40: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno.h:40: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/include/scic/errno.h:41: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno.h:41: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/include/scic/errno.h:42: WARNING:LONG_LINE_COMMENT: line over 80 characters
+./errno/include/scic/errno.h:42: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno.h:42: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/include/scic/errno.h:43: WARNING:LONG_LINE_COMMENT: line over 80 characters
+./errno/include/scic/errno.h:43: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno.h:43: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/include/scic/errno.h:44: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno.h:44: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/include/scic/errno.h:45: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno.h:45: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/include/scic/errno.h:46: WARNING:LONG_LINE_COMMENT: line over 80 characters
+./errno/include/scic/errno.h:46: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno.h:46: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/include/scic/errno.h:47: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno.h:47: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/include/scic/errno.h:51: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno.h:51: CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+./errno/include/scic/errno.h:51: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/include/scic/errno.h:54: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno.h:54: CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+./errno/include/scic/errno.h:54: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/include/scic/errno.h:59: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno.h:59: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/include/scic/errno.h:62: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno.h:62: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/include/scic/errno.h:65: ERROR:POINTER_LOCATION: "foo * bar" should be "foo *bar"
+./errno/include/scic/errno.h:71: ERROR:POINTER_LOCATION: "foo * bar" should be "foo *bar"
+./errno/include/scic/errno.h:77: CHECK:MACRO_ARG_REUSE: Macro argument reuse 'scic_errno' - possible side-effects?
+./errno/include/scic/errno.h:78: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno.h:78: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/include/scic/errno.h:79: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno.h:79: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/include/scic/errno.h:80: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno.h:80: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/include/scic/errno.h:81: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno.h:81: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/include/scic/errno.h:86: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno.h:86: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/include/scic/errno.h:87: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno.h:87: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/include/scic/errno.h:88: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno.h:88: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/include/scic/errno.h:89: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno.h:89: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/include/scic/errno.h:92: WARNING:BLOCK_COMMENT_STYLE: Block comments use * on subsequent lines
+./errno/include/scic/errno.h:92: WARNING:BLOCK_COMMENT_STYLE: Block comments use a trailing */ on a separate line
+./errno/include/scic/errno.h:95: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno.h:95: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/include/scic/errno.h:96: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno.h:96: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/include/scic/errno.h:97: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno.h:97: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/include/scic/errno.h:98: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/include/scic/errno.h:98: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/include/scic/errno.h:119: CHECK:MACRO_ARG_REUSE: Macro argument reuse 'a' - possible side-effects?
+./errno/include/scic/errno.h:119: CHECK:MACRO_ARG_REUSE: Macro argument reuse 'b' - possible side-effects?
+./errno/include/scic/errno.h:120: CHECK:MACRO_ARG_REUSE: Macro argument reuse 'a' - possible side-effects?
+./errno/include/scic/errno.h:121: CHECK:MACRO_ARG_REUSE: Macro argument reuse 'a' - possible side-effects?
+./errno/include/scic/errno.h:122: CHECK:MACRO_ARG_REUSE: Macro argument reuse 'a' - possible side-effects?
+./errno/include/scic/errno.h:124: CHECK:MACRO_ARG_REUSE: Macro argument reuse 's' - possible side-effects?
+./errno/src/errno/stream.c:1: WARNING:SPDX_LICENSE_TAG: Missing or malformed SPDX-License-Identifier tag in line 1
+./errno/src/errno/stream.c:5: ERROR:GLOBAL_INITIALISERS: do not initialise globals to NULL
+./errno/src/errno/stream.c:10: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/stream.c:10: CHECK:PARENTHESIS_ALIGNMENT: Alignment should match open parenthesis
+./errno/src/errno/stream.c:10: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/stream.c:12: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/stream.c:12: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/stream.c:12: CHECK:COMPARISON_TO_NULL: Comparison to NULL could be written "!scic_stream"
+./errno/src/errno/stream.c:13: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/stream.c:13: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/stream.c:14: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/stream.c:14: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/stream.c:15: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/stream.c:15: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/stream.c:17: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/stream.c:17: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/stream.c:18: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/stream.c:18: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/stream.c:19: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/stream.c:19: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/stream.c:20: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/stream.c:20: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/stream.c:21: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/stream.c:21: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/stream.c:23: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/stream.c:23: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/stream.c:30: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/stream.c:30: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/stream.c:31: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/stream.c:31: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/stream.c:32: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/stream.c:32: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/stream.c:39: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/stream.c:39: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/stream.c:41: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/stream.c:41: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/stream.c:41: WARNING:BRACES: braces {} are not necessary for single statement blocks
+./errno/src/errno/stream.c:41: CHECK:COMPARISON_TO_NULL: Comparison to NULL could be written "!scic_stream"
+./errno/src/errno/stream.c:42: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/stream.c:42: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/stream.c:43: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/stream.c:43: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/stream.c:45: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/stream.c:45: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/stream.c:46: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/stream.c:46: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/stream.c:47: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/stream.c:47: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/error.c:1: WARNING:SPDX_LICENSE_TAG: Missing or malformed SPDX-License-Identifier tag in line 1
+./errno/src/errno/error.c:6: ERROR:GLOBAL_INITIALISERS: do not initialise globals to NULL
+./errno/src/errno/error.c:6: ERROR:POINTER_LOCATION: "foo * bar" should be "foo *bar"
+./errno/src/errno/error.c:13: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/error.c:13: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/error.c:14: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/error.c:14: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/error.c:15: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/error.c:15: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/error.c:16: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/error.c:16: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/error.c:17: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/error.c:17: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/error.c:19: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/error.c:19: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/error.c:21: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/error.c:21: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/error.c:22: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/error.c:22: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/error.c:23: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/error.c:23: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/error.c:25: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/error.c:25: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/error.c:31: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/error.c:31: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/error.c:32: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/error.c:32: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/error.c:34: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/error.c:34: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/error.c:41: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/error.c:41: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/error.c:42: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/error.c:42: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/error.c:44: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/error.c:44: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/error.c:50: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/error.c:51: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/error.c:51: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/error.c:52: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/error.c:52: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/error.c:53: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/error.c:53: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/error.c:54: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/error.c:54: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/error.c:56: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/error.c:56: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/error.c:57: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/error.c:57: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/error.c:58: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/error.c:58: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/error.c:59: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/error.c:59: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/error.c:61: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/error.c:61: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:1: WARNING:SPDX_LICENSE_TAG: Missing or malformed SPDX-License-Identifier tag in line 1
+./errno/src/errno/strerrno.c:7: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:7: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:8: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:8: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:9: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:9: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:10: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:10: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:11: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:11: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:12: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:12: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:13: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:13: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:14: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:14: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:15: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:15: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:16: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:16: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:17: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:17: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:18: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:18: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:19: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:19: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:20: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:20: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:21: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:21: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:22: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:22: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:23: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:23: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:24: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:24: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:25: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:25: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:26: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:26: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:27: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:27: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:28: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:28: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:29: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:29: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:30: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:30: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:31: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:31: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:32: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:32: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:33: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:33: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:34: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:34: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:35: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:35: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:36: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:36: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:37: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:37: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:38: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:38: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:39: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:39: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:40: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:40: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:41: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:41: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:42: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:42: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:43: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:43: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:44: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:44: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:45: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:45: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:46: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:46: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:47: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:47: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:48: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:48: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:49: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:49: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:50: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:50: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:51: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:51: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:52: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:52: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:53: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:53: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:54: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:54: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:55: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:55: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:56: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:56: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:57: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:57: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:58: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:58: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:59: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:59: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:60: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:60: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:61: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:61: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:62: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:62: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:63: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:63: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:64: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:64: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:65: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:65: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:66: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:66: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:67: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:67: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:68: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:68: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:69: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:69: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:70: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:70: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:71: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:71: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:72: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:72: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:73: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:73: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:74: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:74: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:75: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:75: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:76: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:76: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:77: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:77: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:78: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:78: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:79: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:80: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:80: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/strerrno.c:81: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/strerrno.c:81: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/message.c:1: WARNING:SPDX_LICENSE_TAG: Missing or malformed SPDX-License-Identifier tag in line 1
+./errno/src/errno/message.c:10: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/message.c:10: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/message.c:12: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/message.c:12: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/message.c:13: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/message.c:13: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/message.c:14: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/message.c:14: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./errno/src/errno/message.c:15: ERROR:CODE_INDENT: code indent should use tabs where possible
+./errno/src/errno/message.c:15: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./bin/build_linux_cc_mingw64:2: WARNING:SPDX_LICENSE_TAG: Missing or malformed SPDX-License-Identifier tag in line 2
+./bin/build_linux:2: WARNING:SPDX_LICENSE_TAG: Missing or malformed SPDX-License-Identifier tag in line 2
+./bin/build_linux-debug:2: WARNING:SPDX_LICENSE_TAG: Missing or malformed SPDX-License-Identifier tag in line 2
+./bin/check_style:2: WARNING:SPDX_LICENSE_TAG: Missing or malformed SPDX-License-Identifier tag in line 2
+./bin/build_linux-release:2: WARNING:SPDX_LICENSE_TAG: Missing or malformed SPDX-License-Identifier tag in line 2
+./bin/build_linux-release:14: ERROR:TRAILING_WHITESPACE: trailing whitespace
+~/Documents/Projects/Github/errno/bin
