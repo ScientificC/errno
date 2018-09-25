@@ -43,6 +43,8 @@
 
 #define __SCIC_ERR_ARGS_FIRST(A, ...) A
 
+#ifndef RETURN_IF_NULL
 #define RETURN_IF_NULL(x) do { if (!(x)) return; } while (0)
+#endif
 
 #endif
