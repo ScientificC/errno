@@ -75,7 +75,7 @@ FILE *scic_set_stream(FILE *new_stream);
 /* SCIC_ERROR: call the error handler, and return the error code */
 #define SCIC_ERROR(reason, scic_errno)                                  \
         do {                                                            \
-                typeof(scic_errno) tmp = scic_errno;                    \
+                int tmp = scic_errno;                                   \
                 scic_error(reason, __FILE__, __LINE__, tmp);            \
                 return tmp;                                             \
         } while (0)
