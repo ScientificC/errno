@@ -1,0 +1,9 @@
+{
+  "name": "errno",
+  "version": "1.0.0",
+  "repo": "ScientificC/errno",
+  "description": "This repository contains some error handling modules used in the development of the libraries.",
+  "keywords": [],
+  "license": "MIT",
+  "install": "./install.sh"
+}
