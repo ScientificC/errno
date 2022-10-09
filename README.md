@@ -26,9 +26,6 @@ or,
 
 ```shell
 git clone https://github.com/ScientificC/errno.git
-cd cml
-mkdir build
-cd build
-cmake .. <build options>
-make && make install
+cd errno
+./install.sh
 ```
