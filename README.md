@@ -2,7 +2,7 @@
 
 This repository contains some error handling modules used in the development of the libraries
 
-[![Build Status](https://travis-ci.org/ScientificC/errno.svg?branch=master)](https://travis-ci.org/ScientificC/errno) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 A pure C errno implementation with CMake build support
 
